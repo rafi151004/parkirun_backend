@@ -4,7 +4,7 @@ const db = require('../config/db');
 const setupMqtt = () => {
     // KONEKSI KE HIVEMQ CLOUD (SECURE)
     const client = mqtt.connect({
-        host: '04d5d25a625b45359541289c12a2bdde.s1.eu.hivemq.cloud',
+        host: '',
         port: 8883,
         protocol: 'mqtts', 
         username: 'smartparking',
